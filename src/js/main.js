@@ -5,6 +5,10 @@
         $(this).addClass('active');
     })
     
+    $('.dropdown').hover(function(){ 
+      $('.dropdown-toggle', this).trigger('click'); 
+    });
+    
     $('.testimonial-slider').owlCarousel({
         nav:false,
         items:2,
@@ -30,7 +34,5 @@
     })
 })();
 
-//$(document).ready(function () {
-//});
 
 
