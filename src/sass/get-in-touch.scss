@@ -1,49 +1,46 @@
 .get-in-touch {
-    background: url(../images/get-in-touch-bg.png) no-repeat;
-    background-position: center top;
-    background-size: cover;
-    padding: 5rem 0;
-}
-
-.get-in-touch:after {
+  background: url(../images/get-in-touch-bg.png) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 5rem 0;
+  &:after {
     background: rgba(0, 0, 0, 0.7);
-}
-
-.get-in-touch h2 {
+  }
+  h2 {
     font-size: 28px;
+  }
 }
 
 .contact-form {
-    max-width: 800px;
-    margin: 2.3rem auto 0;
-}
-
-.contact-form textarea {
+  max-width: 800px;
+  margin: 2.3rem auto 0;
+  textarea {
     height: 110px;
     resize: none;
-}
-
-.contact-form .btn {
+  }
+  .btn {
     margin: 5px auto 0;
+  }
 }
 
 .form-control {
-    font-size: 15px;
+  font-size: 15px;
 }
-
 
 //responsive css goes here
 
-@media (max-width:1366px) {
-    .get-in-touch {
-        padding: 3rem 0;
-    }
+@media (max-width: 1366px) {
+  .get-in-touch {
+    padding: 3rem 0;
+  }
 }
-@media (max-width:991px) {
-    .get-in-touch {
-        padding: 2rem 0;
-    }
+
+@media (max-width: 991px) {
+  .get-in-touch {
+    padding: 2rem 0;
+  }
 }
+
 //@media (max-width:767px) {
 //    
 //}
